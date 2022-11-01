@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="./img/ampulheta-menu.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@138;400&family=Roboto+Slab:wght@190;415&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylebooks.css">
+    <link rel="stylesheet" href="resumos.css">
+    <title>DB - Digital Book</title>
+</head>
+<body>
+    <header class="header-menu-principal">
+        <img class="pesquisa" src="./img/ampulheta-menu.png" alt="logo">
+        <nav> 
+            <h1 class="logoname">DB ~ Digital Book</h1>
+            <input class="inputPesquisa" list="PLista" placeholder="Pesquise aqui">
+            <datalist id="PLista">
+                <option value="Senhor do seu Anél"/>
+                <option value="Senhor dos Anéis"/>
+                <option value="Interestelar"/>
+                <option value="Game of Thrones"/>
+                <option value="Minecraft"/>
+                <option value="League of Legends"/>
+                <option value="Valorant"/>
+                <option value="500 dias sem ela"/>
+            </datalist>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <img class="pesquisa" src="./img/logofinder.png" alt="logo">
+    </header>
+    <header class="header-menu">
+        <nav>
+            <ul>
+                <li><a href="">Livros</a></li>
+                <li><a href="">Jogos</a></li>
+                <li><a href="">Filmes</a></li>
+                <li><a href="">Gênero</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="opaco"> 
+    
+        <div class="livros">
+            <section  id="left"><figure><img src="./img/left.png" alt=""></figure></section>
+            <section>
+                <figure><img id="livro1" src="./img/book2.png" alt="" onclick="teste('vakir')"></figure>
+                <figure><img id="livro2" src="./img/book2.png" alt=""></figure>
+                <figure><img id="livro3" src="./img/book2.png" alt=""></figure>
+                <figure><img id="livro4" src="./img/book2.png" alt=""></figure>
+                <figure><img id="livro5" src="./img/book2.png" alt="" ></figure>
+            </section>
+            <section id="right"><figure><img src="./img/right.png" alt=""></figure></section>
+        </div>
+        </div>
+
+        <div class="opaco-escuro">
+        <div class="resumo-texto">
+            <article>
+                <section id="book1">
+                    <h1>SUGGAR SIS</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur blanditiis aliquam placeat labore et sed dolores tenetur quibusdam consequatur cupiditate illo non, ea praesentium ratione quasi optio quae ut molestias.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur blanditiis aliquam placeat labore et sed dolores tenetur quibusdam consequatur cupiditate illo non, ea praesentium ratione quasi optio quae ut molestias.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur blanditiis aliquam placeat labore et sed dolores tenetur quibusdam consequatur cupiditate illo non, ea praesentium ratione quasi optio quae ut molestias.</p>
+                </section>
+                <section id="book2">
+                    <h1>SUGGAR MOM</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur blanditiis aliquam placeat labore et sed dolores tenetur quibusdam consequatur cupiditate illo non, ea praesentium ratione quasi optio quae ut molestias.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur blanditiis aliquam placeat labore et sed dolores tenetur quibusdam consequatur cupiditate illo non, ea praesentium ratione quasi optio quae ut molestias.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur blanditiis aliquam placeat labore et sed dolores tenetur quibusdam consequatur cupiditate illo non, ea praesentium ratione quasi optio quae ut molestias.</p>
+                </section>
+            </article>
+        </div>
+    </div>
+</div>
+    <footer id="pezinho">
+        <nav>
+            <ul>
+                <li><a href="">Ajuda</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

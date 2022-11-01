@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html, body{
+    background-image: url(./img/background.png);
+}
+header.header-menu-principal{
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+header.header-menu-principal > nav h1.logoname{
+    color: #fff;
+}
+
+header.header-menu-principal > nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header.header-menu-principal > nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header.header-menu-principal > .search{
+    width: 40%;
+    height: 2.9vh;
+    background-color: aliceblue;
+}
+
+
+header.header-menu-principal > nav ul li a{
+    padding-right: 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+
+header.header-menu-principal > .pesquisa{
+    height: 100%;
+}
+.inputPesquisa{
+    width:35%;
+    margin-left: 7%;
+    height: 2.9vh;
+
+}
+.inputPesquisa:focus{
+    border: 0;
+    border-color: red;
+}
+.inputPesquisa::placeholder{
+    border: 0;
+    opacity: 40%;
+    background: transparent
+}
+
+.header-menu{
+    width: 100%;
+    height: 2.5vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(78, 78, 78);
+}
+.header-menu nav ul li a{
+    display: flex;
+    color: #fff;
+    
+    text-decoration: none;
+    padding-left: 15px;
+    
+}
+.header-menu nav ul{
+    display: flex;
+    list-style: none;
+}

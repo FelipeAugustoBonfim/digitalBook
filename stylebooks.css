@@ -1,0 +1,92 @@
+.container{
+    width: 100%;
+}
+.opaco{
+    background-color: rgba(196, 200, 204,0.5);
+    width: 100%;
+    height: 33vh;
+}
+
+.livros{
+    display: flex;
+    
+}
+.livros > section{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.livros > section figure img{
+    display: flex;
+    width: 150px;
+    height: 200px;
+    margin-top: 20%;
+    
+    
+}
+.livros > section figure{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.livros > section figure img:hover{
+    margin-top: 30%;
+}
+
+.livros > section figure right:hover{
+    margin-left: 30px;
+}
+
+.livros > figure {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.livros > #left{
+    display: flex;
+    align-items: center;
+    height: 260px;
+    width: 30%;
+}
+.livros > #right{
+    display: flex;
+    align-items: center;
+    height: 260px;
+    width: 30%;
+}
+
+.livros > #left figure img{
+    width: auto;
+    height: 20vh;
+    margin-top: 3%;
+    transition: all 0.5s ease-in-out;
+}
+.livros > #right figure img{
+    width: auto;
+    height: 20vh;
+    margin-top: 3%;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.livros > #right figure{
+    margin-right: 40%;
+}
+.livros > #left figure{
+    margin-left: 40%;
+}
+.livros > #right figure img:hover {
+    margin-left: 40%;
+
+}
+
+.livros > #left figure img:hover {
+    margin-right: 40%;
+}
+.opaco-escuro{
+    background-color: rgba(0, 0, 0, 0.534);
+}
