@@ -6,47 +6,39 @@
 html, body{
     background-image: url(./img/background.png);
 }
-header.header-menu-principal{
+header#header-menu-principal{
     width: 100%;
     background-color: rgb(15, 15, 15);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5vh;
+    position: fixed;
 }
 
-header.header-menu-principal > nav h1.logoname{
+header#header-menu-principal > nav h1#logoname{
     color: #fff;
+
 }
 
-header.header-menu-principal > nav{
+header#header-menu-principal > nav{
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header.header-menu-principal > nav ul{
+header#header-menu-principal > nav ul{
     display: flex;
     list-style: none;
 }
 
-header.header-menu-principal > .search{
+header#header-menu-principal > .search{
     width: 40%;
     height: 2.9vh;
     background-color: aliceblue;
 }
 
-
-header.header-menu-principal > nav ul li a{
-    padding-right: 15px;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: #fff;
-    
-    
-}
-
-header.header-menu-principal > .pesquisa{
+header#header-menu-principal > #pesquisa{
     height: 100%;
 }
 .inputPesquisa{
@@ -83,4 +75,18 @@ header.header-menu-principal > .pesquisa{
 .header-menu nav ul{
     display: flex;
     list-style: none;
+}
+
+
+header#header-menu-principal > nav ul li a{
+    padding-right: 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+#header-menu-principal > nav ul li a:hover{
+    padding-top: 5px;
+    background-color: rgba(172, 172, 172, 0.363);
+    border-radius: 20px 0px 20px 0px;
 }

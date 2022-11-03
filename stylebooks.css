@@ -27,6 +27,7 @@
 .livros > section figure{
     display: flex;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 .livros > section figure img:hover{
@@ -75,9 +76,11 @@
 
 .livros > #right figure{
     margin-right: 40%;
+    cursor: pointer;
 }
 .livros > #left figure{
     margin-left: 40%;
+    cursor: pointer;
 }
 .livros > #right figure img:hover {
     margin-left: 40%;
